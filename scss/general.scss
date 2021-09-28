@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: $blanco;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* Form */
+.formulario {
+  padding: 2rem;
+}
