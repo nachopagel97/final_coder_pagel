@@ -1,0 +1,46 @@
+.hero__servicio {
+  padding-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 100px;
+}
+
+.container__hero__servicio {
+  max-width: 1600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.hero__servicio .titulo__servicio {
+  margin-top: 10px;
+  max-width: 600px;
+  font-size: 50px;
+  font-weight: 900;
+  color: $negro;
+  margin-left: 150px;
+}
+
+.hero__servicio .subtitulo__servicio {
+  font-size: 30px;
+  font-weight: 900px;
+  color: $magenta;
+  margin-left: 150px;
+  margin-top: 1px;
+}
+
+.hero__servicio .parrafo__servicio {
+  margin-left: 150px;
+  width: 500px;
+  color: $negro;
+}
+
+.container__formulario {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  display: flex;
+  align-content: center;
+}
+
+.container__formulario .mb-3 {
+  color: $negro;
+  font-size: 16px;
+}
