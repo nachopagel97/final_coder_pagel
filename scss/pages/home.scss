@@ -18,6 +18,8 @@
 }
 
 .hero .container__info {
+  display: flex;
+  flex-direction: column;
   max-width: 500px;
   height: 400px;
   margin-top: 40px;
@@ -70,4 +72,105 @@
   100% {
     transform: translate(10px);
   }
+}
+
+.container__section__1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  background-image: url(../css/imagenes/fondoooo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container__section__2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  background-image: url(../css/imagenes/fondooo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 50px;
+}
+
+.container__texto {
+  max-width: 650px;
+  font-size: 16px;
+  margin-right: 100px;
+  margin-top: 150px;
+}
+
+.container__texto__servicio {
+  max-width: 650px;
+  font-size: 16px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.container__titulo {
+  margin-bottom: 15px;
+  color: $magenta;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.container__titulo__servicio {
+  margin-bottom: 15px;
+  color: $amarillo;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.container__carousel__1 {
+  max-width: 500px;
+  margin-left: 150px;
+}
+
+.container__carousel {
+  max-width: 650px;
+}
+
+.links {
+  margin-top: 30px;
+}
+
+.links .boton__cv {
+  text-decoration: none;
+  background-color: $amarillo;
+  padding: 10px 30px;
+  color: $blanco;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px -5px $negro;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.links .boton__cv:hover {
+  box-shadow: 1px 1px 15px -5px $negro;
+  color: $blanco;
+  cursor: pointer;
+}
+
+.links .boton__servicio {
+  text-decoration: none;
+  background-color: $magenta;
+  padding: 10px 30px;
+  color: $blanco;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px -5px $negro;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.links .boton__servicio:hover {
+  box-shadow: 1px 1px 15px -5px $negro;
+  color: $blanco;
+  cursor: pointer;
 }

@@ -54,6 +54,7 @@ nav ul li a {
   color: $blanco;
   font-size: 15px;
   font-weight: 800;
+  text-decoration: none;
 }
 
 nav ul li a:hover {
@@ -62,6 +63,7 @@ nav ul li a:hover {
 }
 
 .boton {
+  text-decoration: none;
   background: $magenta;
   padding: 10px 30px;
   color: $blanco;
