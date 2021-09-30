@@ -4,4 +4,21 @@
 @import "./pages/home.scss";
 @import "./pages/servicio.scss";
 @import "./pages/proyectos.scss";
+@import "./pages/sobre_mi.scss";
 @import "./footer.scss";
+
+body {
+  scrollbar-face-color: #6685ca;
+
+  scrollbar-highlight-color: #6685ca;
+
+  scrollbar-shadow-color: #6685ca;
+
+  scrollbar-3dlight-color: #ffffff;
+
+  scrollbar-arrow-color: #ffffff;
+
+  scrollbar-track-color: #e5e5e5;
+
+  scrollbar-drakshadow-color: #000000;
+}
