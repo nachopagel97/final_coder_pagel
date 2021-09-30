@@ -1,0 +1,48 @@
+.hero__proyectos {
+  padding: 70px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 100px;
+  background-image: url(../css/imagenes/fondoooo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container__hero__proyectos {
+  max-width: 1600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.hero__proyectos .titulo__proyectos {
+  margin-top: 10px;
+  max-width: 600px;
+  font-size: 50px;
+  font-weight: 900;
+  color: $negro;
+  margin-left: 150px;
+}
+
+.hero__proyectos .subtitulo__proyectos {
+  font-size: 30px;
+  font-weight: 900px;
+  color: $magenta;
+  margin-left: 150px;
+  margin-top: 1px;
+}
+
+.hero__proyectos .parrafo__proyectos {
+  margin-left: 150px;
+  width: 500px;
+  color: $negro;
+}
+
+.container__imagen__proyecto {
+  margin-left: 80px;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.container__imagen__proyecto .proyectos__imagen {
+  width: 100%;
+  height: 100%;
+}

@@ -279,6 +279,48 @@ nav ul li a:hover {
   color: #444444;
   font-size: 16px; }
 
+.hero__proyectos {
+  padding: 70px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 100px;
+  background-image: url(../css/imagenes/fondoooo.svg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.container__hero__proyectos {
+  max-width: 1600px;
+  margin: auto;
+  padding: 20px; }
+
+.hero__proyectos .titulo__proyectos {
+  margin-top: 10px;
+  max-width: 600px;
+  font-size: 50px;
+  font-weight: 900;
+  color: #444444;
+  margin-left: 150px; }
+
+.hero__proyectos .subtitulo__proyectos {
+  font-size: 30px;
+  font-weight: 900px;
+  color: #ff0d6b;
+  margin-left: 150px;
+  margin-top: 1px; }
+
+.hero__proyectos .parrafo__proyectos {
+  margin-left: 150px;
+  width: 500px;
+  color: #444444; }
+
+.container__imagen__proyecto {
+  margin-left: 80px;
+  padding: 50px;
+  margin-top: 100px; }
+
+.container__imagen__proyecto .proyectos__imagen {
+  width: 100%;
+  height: 100%; }
+
 footer {
   width: 100%;
   padding: 0px 0px 25px 0px;
